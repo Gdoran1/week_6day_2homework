@@ -27,7 +27,6 @@ public class EmployeeTest {
         assertEquals("AB123456C", employee.getSocialSecurityNumber());
     }
 
-
     @Test
     public void canRaiseSalary() {
         employee.raiseSalary(1200.00);
