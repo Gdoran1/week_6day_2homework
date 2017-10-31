@@ -1,5 +1,7 @@
 package example.codeclan.com.employeestartpoint;
 
+import static junit.framework.Assert.assertEquals;
+
 /**
  * Created by user on 28/08/2017.
  */
@@ -38,4 +40,7 @@ public class Employee {
     }
 
 
+    public void raiseSalary(double value) {
+        this.salary = this.salary + value;
+    }
 }
